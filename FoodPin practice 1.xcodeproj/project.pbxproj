@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		07B4255C23978B4700347E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B4255B23978B4700347E3B /* AppDelegate.swift */; };
 		07B4255E23978B4700347E3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B4255D23978B4700347E3B /* SceneDelegate.swift */; };
-		07B4256023978B4700347E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B4255F23978B4700347E3B /* ViewController.swift */; };
 		07B4256323978B4700347E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B4256123978B4700347E3B /* Main.storyboard */; };
 		07B4256523978B4800347E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B4256423978B4800347E3B /* Assets.xcassets */; };
 		07B4256823978B4800347E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B4256623978B4800347E3B /* LaunchScreen.storyboard */; };
 		07B4257323978B4800347E3B /* FoodPin_practice_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B4257223978B4800347E3B /* FoodPin_practice_1Tests.swift */; };
 		07B4257E23978B4800347E3B /* FoodPin_practice_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B4257D23978B4800347E3B /* FoodPin_practice_1UITests.swift */; };
+		07B4258C23978DCE00347E3B /* AaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B4258B23978DCE00347E3B /* AaTableViewController.swift */; };
+		07B4258E2397A3DB00347E3B /* InOneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B4258D2397A3DB00347E3B /* InOneTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		07B4255823978B4700347E3B /* FoodPin practice 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodPin practice 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B4255B23978B4700347E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07B4255D23978B4700347E3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07B4255F23978B4700347E3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07B4256223978B4700347E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07B4256423978B4800347E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07B4256723978B4800347E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		07B4257923978B4800347E3B /* FoodPin practice 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodPin practice 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B4257D23978B4800347E3B /* FoodPin_practice_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPin_practice_1UITests.swift; sourceTree = "<group>"; };
 		07B4257F23978B4800347E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B4258B23978DCE00347E3B /* AaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AaTableViewController.swift; sourceTree = "<group>"; };
+		07B4258D2397A3DB00347E3B /* InOneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOneTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				07B4255B23978B4700347E3B /* AppDelegate.swift */,
 				07B4255D23978B4700347E3B /* SceneDelegate.swift */,
-				07B4255F23978B4700347E3B /* ViewController.swift */,
 				07B4256123978B4700347E3B /* Main.storyboard */,
 				07B4256423978B4800347E3B /* Assets.xcassets */,
 				07B4256623978B4800347E3B /* LaunchScreen.storyboard */,
 				07B4256923978B4800347E3B /* Info.plist */,
+				07B4258B23978DCE00347E3B /* AaTableViewController.swift */,
+				07B4258D2397A3DB00347E3B /* InOneTableViewCell.swift */,
 			);
 			path = "FoodPin practice 1";
 			sourceTree = "<group>";
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B4256023978B4700347E3B /* ViewController.swift in Sources */,
 				07B4255C23978B4700347E3B /* AppDelegate.swift in Sources */,
 				07B4255E23978B4700347E3B /* SceneDelegate.swift in Sources */,
+				07B4258C23978DCE00347E3B /* AaTableViewController.swift in Sources */,
+				07B4258E2397A3DB00347E3B /* InOneTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
